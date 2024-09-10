@@ -1,11 +1,11 @@
 .skills__container {
-  display: flex; /* Flexbox for vertical stacking */
-  flex-direction: column; /* Stack children vertically */
-  gap: 20px; /* Add space between sections */
-  height: 100vh; /* Full viewport height for each section */
-  overflow-y: scroll; /* Enable vertical scrolling */
-  scroll-snap-type: y mandatory; /* Snap scrolling vertically */
-  justify-content: center; /* Center content horizontally if needed */
+  display: flex; 
+  flex-direction: column; 
+  gap: 20px; 
+  height: 100vh; 
+  overflow-y: scroll; 
+  scroll-snap-type: y mandatory; 
+  justify-content: flex-start; 
 }
 
 .skills__content {
@@ -54,14 +54,13 @@
   font-size: var(--tiny-font-size);
 }
 
-.inner{
-  flex: 1; 
+.inner {
   display: flex;
   justify-content: center; 
   align-items: center; 
-  align-items: center;
-  scroll-snap-align: start; /* Snap this section to the start */
+  scroll-snap-align: start; 
   height: 100vh; 
+  padding: 0 2rem; 
 }
 
 .row {
@@ -70,27 +69,21 @@
   justify-content: center; 
   align-items: center; 
   scroll-snap-align: start;
+  flex-wrap: wrap; 
 }
 
+
 .Languages, .Frameworks, .Tools {
-  flex: 1; 
+  flex: 1 1 200px; 
+  min-width: 150px; 
 }
 
 /*=============== BREAKPOINTS ===============*/
-/* For large devices */
-@media screen and (max-width: 992px) {
-  .skills__container {
-    grid-template-columns: max-content;
-    row-gap: 2rem;
-  }
-}
+
+
 
 /* For medium devices */
-@media screen and (max-width: 576px) {
-  .skills__container {
-    grid-template-columns: 1fr;
-  }
-
+@media screen and (max-width: 768px) {
   .skills__content {
     padding: 1.5rem;
   }

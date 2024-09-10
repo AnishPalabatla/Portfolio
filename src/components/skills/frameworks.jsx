@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-const Backend = () => {
+const Frameworks = () => {
     return (
         <div className="skills__content">
-            <h3 className="skills__title">Libraries / Frameworks</h3>
+            <h3 className="skills__title">Frameworks / Libraries</h3>
 
             <div className="skills__box">
                 <div className="skills__group">
@@ -11,26 +11,26 @@ const Backend = () => {
                         <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">Numpy</h3>
+                            <h3 className="skills__name">React</h3>
                             <span className="skills__level">Advanced</span>
                         </div>
                     </div>
 
                     <div className="skills__data">
-                        <i className='bx bx-badge-check' ></i>
+                        <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">Pandas</h3>
-                            <span className="skills__level">Advanced</span>
+                            <h3 className="skills__name">Angular</h3>
+                            <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
 
                     <div className="skills__data">
-                        <i className='bx bx-badge-check' ></i>
+                        <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">Sci-kit Learn</h3>
-                            <span className="skills__level">Advanced</span>
+                            <h3 className="skills__name">Vue</h3>
+                            <span className="skills__level">Beginner</span>
                         </div>
                     </div>
                 </div>
@@ -40,13 +40,13 @@ const Backend = () => {
                         <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">TensorFlow</h3>
+                            <h3 className="skills__name">Django</h3>
                             <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
 
                     <div className="skills__data">
-                        <i className='bx bx-badge-check' ></i>
+                        <i className='bx bx-badge-check'></i>
 
                         <div>
                             <h3 className="skills__name">Flask</h3>
@@ -55,17 +55,17 @@ const Backend = () => {
                     </div>
 
                     <div className="skills__data">
-                        <i className='bx bx-badge-check' ></i>
+                        <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">NLTK</h3>
-                            <span className="skills__level">Begineer</span>
+                            <h3 className="skills__name">Express</h3>
+                            <span className="skills__level">Beginner</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default Backend
+export default Frameworks;
