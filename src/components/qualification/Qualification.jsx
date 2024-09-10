@@ -46,20 +46,6 @@ const Qualification = () => {
                                 : "qualification__content"
                         }
                     >
-                        <div className="qualification__data">
-                            <div>
-                                <h3 className="qualification__title">Web Design</h3>
-                                <span className="qualification__subtitle">Spain - Institute</span>
-                                <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i> 2021 - Present
-                                </div>
-                            </div>
-
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
-                        </div>
 
                         <div className="qualification__data">
                             <div></div>
@@ -118,20 +104,6 @@ const Qualification = () => {
                                 : "qualification__content"
                         }
                     >
-                        <div className="qualification__data">
-                            <div>
-                                <h3 className="qualification__title">Product Designer</h3>
-                                <span className="qualification__subtitle">Microsoft - Spain</span>
-                                <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i> 2021 - Present
-                                </div>
-                            </div>
-
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
-                        </div>
 
                         <div className="qualification__data">
                             <div></div>
