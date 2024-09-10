@@ -1,71 +1,30 @@
-import React from 'react'
+import React from 'react';
+import './expertise.css';
 
-const Backend = () => {
+const expertise = () => {
     return (
-        <div className="skills__content">
-            <h3 className="skills__title">Expertise</h3>
+        <div className="skills__content_exp">
+            <h3 className="exp_title">Expertise</h3>
 
-            <div className="skills__box">
-                <div className="skills__group">
-                    <div className="skills__data">
-                        <i className='bx bx-badge-check'></i>
-
-                        <div>
-                            <h3 className="skills__name">Data Analytics</h3>
-                            <span className="skills__level">--</span>
-                        </div>
-                    </div>
-
-                    <div className="skills__data">
-                        <i className='bx bx-badge-check' ></i>
-
-                        <div>
-                            <h3 className="skills__name">Statistical Modeling</h3>
-                            <span className="skills__level">--</span>
-                        </div>
-                    </div>
-
-                    <div className="skills__data">
-                        <i className='bx bx-badge-check' ></i>
-
-                        <div>
-                            <h3 className="skills__name">Machine Learning</h3>
-                            <span className="skills__level">--</span>
-                        </div>
-                    </div>
+            <div className="exp_box">
+                <div className="exp_group">
+                    <ul className="exp_list">
+                        <li className="exp_item">Data Analytics</li>
+                        <li className="exp_item">Statistical Modeling</li>
+                        <li className="exp_item">Machine Learning</li>
+                    </ul>
                 </div>
 
-                <div className="skills__group">
-                    <div className="skills__data">
-                        <i className='bx bx-badge-check'></i>
-
-                        <div>
-                            <h3 className="skills__name">Deep Learning</h3>
-                            <span className="skills__level">--</span>
-                        </div>
-                    </div>
-
-                    <div className="skills__data">
-                        <i className='bx bx-badge-check' ></i>
-
-                        <div>
-                            <h3 className="skills__name">Natural Language Processing</h3>
-                            <span className="skills__level">--</span>
-                        </div>
-                    </div>
-
-                    <div className="skills__data">
-                        <i className='bx bx-badge-check' ></i>
-
-                        <div>
-                            <h3 className="skills__name">Computer Vision</h3>
-                            <span className="skills__level">--</span>
-                        </div>
-                    </div>
+                <div className="exp_group">
+                    <ul className="exp_list">
+                        <li className="exp_item">Deep Learning</li>
+                        <li className="exp_item">NLP</li>
+                        <li className="exp_item">Computer Vision</li>
+                    </ul>
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Backend
+export default expertise;
