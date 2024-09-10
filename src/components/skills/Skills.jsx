@@ -11,11 +11,15 @@ const Skills = () => {
             <h2 className="section__title">Skills</h2>
             <span className="section__subtitle">My technical level</span>
 
-            <div className="skills__container container grid">
-                <Expertise / >
-                <Languages />
-                <Frameworks />
-                <Tools />
+            <div className="skills__container">
+                <div class = 'inner'>
+                    <Expertise />
+                </div>
+                <div class = 'row'>
+                    <Languages />
+                    <Frameworks />
+                    <Tools />
+                </div>
             </div>
         </section>
     )

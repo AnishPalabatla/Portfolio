@@ -1,7 +1,11 @@
 .skills__container {
-  grid-template-columns: repeat(2, 350px);
-  column-gap: 3rem;
-  justify-content: center;
+  display: flex; /* Flexbox for vertical stacking */
+  flex-direction: column; /* Stack children vertically */
+  gap: 20px; /* Add space between sections */
+  height: 100vh; /* Full viewport height for each section */
+  overflow-y: scroll; /* Enable vertical scrolling */
+  scroll-snap-type: y mandatory; /* Snap scrolling vertically */
+  justify-content: center; /* Center content horizontally if needed */
 }
 
 .skills__content {
@@ -48,6 +52,28 @@
 
 .skills__level {
   font-size: var(--tiny-font-size);
+}
+
+.inner{
+  flex: 1; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  align-items: center;
+  scroll-snap-align: start; /* Snap this section to the start */
+  height: 100vh; 
+}
+
+.row {
+  display: flex;
+  gap: 20px; 
+  justify-content: center; 
+  align-items: center; 
+  scroll-snap-align: start;
+}
+
+.Languages, .Frameworks, .Tools {
+  flex: 1; 
 }
 
 /*=============== BREAKPOINTS ===============*/
