@@ -8,6 +8,15 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
     
+        const name = form.current.name.value.trim();
+        const email = form.current.email.value.trim();
+        const message = form.current.message.value.trim();
+    
+        if (!name || !email || !message) {
+            alert('Please fill in all fields.');
+            return;
+        }
+    
         emailjs.sendForm('service_pku9imd', 'template_00yfbpr', form.current, '8dROrExYY1dbG4CDW')
         .then((result) => {
             console.log('Email sent successfully:', result.text);
