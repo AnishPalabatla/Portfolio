@@ -11,7 +11,7 @@ const Frameworks = () => {
                         <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">React</h3>
+                            <h3 className="skills__name">Numpy</h3>
                             <span className="skills__level">Advanced</span>
                         </div>
                     </div>
@@ -20,8 +20,8 @@ const Frameworks = () => {
                         <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">Angular</h3>
-                            <span className="skills__level">Intermediate</span>
+                            <h3 className="skills__name">Pandas</h3>
+                            <span className="skills__level">Advanced</span>
                         </div>
                     </div>
 
@@ -29,8 +29,8 @@ const Frameworks = () => {
                         <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">Vue</h3>
-                            <span className="skills__level">Beginner</span>
+                            <h3 className="skills__name">Sci-kit Learn</h3>
+                            <span className="skills__level">Advanced</span>
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ const Frameworks = () => {
                         <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">Django</h3>
+                            <h3 className="skills__name">TensorFlow</h3>
                             <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ const Frameworks = () => {
                         <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">Express</h3>
+                            <h3 className="skills__name">NLTK</h3>
                             <span className="skills__level">Beginner</span>
                         </div>
                     </div>

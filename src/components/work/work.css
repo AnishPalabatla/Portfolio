@@ -37,6 +37,7 @@
   width: 295px;
   border-radius: 1rem;
   margin-bottom: var(--mb-1);
+  height:70%;
 }
 
 .work__title {
