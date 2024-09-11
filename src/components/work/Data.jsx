@@ -1,6 +1,7 @@
 import body_size from '../../assets/body-size.png'
 import chess from '../../assets/chess.png'
 import cricket from '../../assets/cricket.png'
+import portfolio from '../../assets/portfolio.png'
 
 
 export const projectsData = [
@@ -25,6 +26,13 @@ export const projectsData = [
         link: "https://github.com/ramg-0903/Cricket-Data-Analysis",
         category: "Dashboards",
     },
+    {
+        id: 4,
+        image: portfolio,
+        title: "Portfolio",
+        link: "https://github.com/ramg-0903/Portfolio-website",
+        category: "Dev",
+    },
 ];
 
 export const projectsNav = [
@@ -36,5 +44,8 @@ export const projectsNav = [
     },
     {
         name: 'Dashboards',
+    },
+    {
+        name: 'Dev',
     },
 ];

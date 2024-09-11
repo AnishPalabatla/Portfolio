@@ -37,7 +37,7 @@ const Contact = () => {
                             <h3 className="contact__card-title">Email</h3>
                             <span className="contact__card-data">argr.0903@gmail.com</span>
 
-                            <a href="mailto:argr.0903@gmail.com" className="contact__button">
+                            <a href="mailto:argr.0903@gmail.com" target="_blank" rel="noopener noreferrer" className="contact__button">
                                 Write me <i className='bx bx-right-arrow-alt contact__button-icon'></i>
                             </a>
                         </div>
@@ -48,7 +48,7 @@ const Contact = () => {
                             <h3 className="contact__card-title">Whatsapp</h3>
                             <span className="contact__card-data">+91-7075553502</span>
 
-                            <a href="https://api.whatsapp.com/send?phone=917075553502&text=Hello, more information!" className="contact__button">
+                            <a href="https://api.whatsapp.com/send?phone=917075553502&text=Hello!" target="_blank" rel="noopener noreferrer" className="contact__button">
                                 Text me <i className='bx bx-right-arrow-alt contact__button-icon'></i>
                             </a>
                         </div>
@@ -59,7 +59,7 @@ const Contact = () => {
                             <h3 className="contact__card-title">LinkedIn</h3>
                             <span className="contact__card-data">Ramgopal Reddy</span>
 
-                            <a href="https://www.linkedin.com/in/ramgopal-reddy--/" className="contact__button">
+                            <a href="https://www.linkedin.com/in/ramgopal-reddy--/" target="_blank" rel="noopener noreferrer" className="contact__button">
                                 Connect <i className='bx bx-right-arrow-alt contact__button-icon'></i>
                             </a>
                         </div>
